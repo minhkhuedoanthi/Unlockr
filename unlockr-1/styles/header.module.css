@@ -1,0 +1,32 @@
+/* styles/header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #fcd19c, #ffde87);
+    padding: 1rem 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navLink {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .profileIcon {
+    font-size: 24px;
+  }
+  
